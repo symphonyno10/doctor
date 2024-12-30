@@ -1,5 +1,7 @@
+setuptools>=65.5.1
+wheel>=0.38.4
 
 streamlit==1.26.0
 pandas==2.0.3
-numpy>=1.25.0
+numpy>=1.25.0    # Python 3.12 대비, distutils 문제 회피
 plotly==5.10.0
